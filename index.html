@@ -7,40 +7,47 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/kimnguyen10" target="_blank">Kim Nguyen</a>
-      and is
-      <a href="https://github.com/kimnguyen10/my-poem-generator" target="_blank"
-        >open-sourced on Github</a
-      >and is
-      <a
-        href="https://my-ai-poem-generator-project.netlify.app/"
-        target="_blank"
-      >
-        on Netlify.</a
-      >
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/kimnguyen10" target="_blank">Kim Nguyen</a>
+        and is
+        <a
+          href="https://github.com/kimnguyen10/my-poem-generator"
+          target="_blank"
+          >open-sourced on Github</a
+        >and is
+        <a
+          href="https://my-ai-poem-generator-project.netlify.app/"
+          target="_blank"
+        >
+          on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
